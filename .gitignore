@@ -1,0 +1,22 @@
+# --- Circom Compiler Artifacts ---
+*.r1cs
+*.sym
+*_js/
+*_cpp/
+*.wtns
+witness.json
+
+# --- Trusted Setup & Keys (SnarkJS) ---
+*.ptau
+*.zkey
+verification_key.json
+proof.json
+public.json
+
+# --- Build Folders ---
+build/
+
+# --- Dependencies ---
+node_modules/
+package-lock.json
+yarn.lock
